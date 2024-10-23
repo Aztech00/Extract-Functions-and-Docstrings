@@ -1,12 +1,25 @@
-# Extract Function names and Docstring in Python
-## Quickly scan large Python files for all different functions and get a summary of every function.
-* Fast
-* Easy
-* Not very useful 😅
+# Extract Function Names and Docstrings in Python
 
-# How to Use
-<b>1.</b> Download extract.py. <br>
-<b>2.</b> Change the last line of extract.py to your own input and output files, respectively.
-   <pre>extract_functions('input_file.py', "output_file.txt")</pre>
-<b>3.</b> Run the script.
-   <pre>python3 extract.py</pre>
+## Overview
+Quickly scan large Python files to extract function names and summarize their docstrings.
+
+### Key Features
+- **Fast**: Efficiently processes large files.
+- **Easy**: Simple setup and usage.
+- **Not very useful**: 😅 Just a fun tool!
+
+---
+
+### How to Use
+
+1. **Download** `extract.py`.
+2. **Modify the Script**:
+   - Change the last line to set your input and output files:
+     ```python
+     extract_functions('input_file.py', 'output_file.txt')
+     ```
+3. **Run the Script**:
+   - Execute this command in your terminal:
+     ```bash
+     python3 extract.py
+     ```
